@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'Soho Pro';
+    src: local('fonts/Soho Pro Condensed'), local('fonts/Soho-Pro-Condensed'), url('fonts/SohoPro-Condensed.woff2') format('woff2'), url('fonts/SohoPro-Condensed.woff') format('woff'), url('fonts/SohoPro-Condensed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "LoveNature";
+    src: url('fonts/LoveNature.ttf');
+}
+
+html {
+    background-color: #1652f0;
+    background-size: cover;
+}
+
+body {
+    background-color: #1652f0!important;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#divh1 {
+    background-color: #1652f0;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    background-color: #1652f0;
+    color: white;
+    padding: 75px 0px 20px 0px;
+    /*border-bottom:2px solid white;*/
+    text-align: center;
+}
+
+.display-3 {
+    border-bottom: 2px solid white;
+}
+
+h3 {
+    color: white;
+    font-size: 1.2em;
+}
+
+h6 {
+    color: #1652f0;
+    background-color: white;
+    text-align: center;
+    border: 10px solid #1652f0;
+    padding-bottom: 5px;
+}
+
+.spanMana {
+    margin-left: 50px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+.spanMana2 {
+    margin-left: 30px;
+    margin-bottom: 40px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#spanAdmin {
+    display: flex;
+    text-align: center;
+    padding: 0px 10px 70px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-shadow: 5px;
+    position: relative;
+    left: 850px;
+    top: 105px;
+    max-height: 50px;
+    font-size: 3em;
+}
+
+#spanUser {
+    display: flex;
+    text-align: center;
+    padding: 0px 10px 70px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-shadow: 5px;
+    position: relative;
+    left: 850px;
+    top: 105px;
+    max-height: 50px;
+    font-size: 3em;
+}
+
+.spanA {
+    border-bottom: 10px solid rgb(0, 172, 57);
+}
+
+.spanU {
+    border-bottom: 10px solid rgb(180, 2, 2);
+}
+
+#divh2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1652f0;
+    margin-left: 70px;
+}
+
+#divh3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1652f0;
+    color: white;
+    margin-left: 20px!important;
+}
+
+#divh4 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #1652f0;
+    margin-bottom: 20px;
+    /*border-bottom : 10px solid rgb(1, 173, 44);   */
+}
+
+#divh2form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1652f0;
+}
+
+#form {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #1652f0;
+    padding-top: 20px;
+}
+
+.tradingview-widget-container {
+    height: 410px!important;
+    width: 780px!important;
+}
+
+.form-group {
+    /*width:300px;*/
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    /* margin-left: 100px; */
+    margin: 0px 50px 0px 50px;
+}
+
+.form-groupb {
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+}
+
+.form-floating mb-3,
+.form-floating {
+    margin: 0px 0px 20px 20px;
+}
+
+.display-5 {
+    margin-top: 30px;
+}
+
+#form-submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+#p-form a {
+    text-decoration: none;
+    color: #1652f0;
+}
+
+#p-formb {
+    padding-left: 20px;
+}
+
+#p-formb a {
+    text-decoration: none;
+    color: #1652f0;
+}
+
+#submitlogin {
+    display: flex;
+    flex-flow: column;
+}
+
+.containerb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    background-color: #1652f0;
+}
+
+.containerb a {
+    font-size: 1.5em;
+}
+
+.btn-group {
+    margin: 20px 20px 00px 0px;
+    align-items: center;
+}
+
+.btn-group a {
+    margin-right: 10px;
+    color: white;
+}
+
+caption {
+    margin-left: 20px;
+}
+
+table {
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    /* max-width: 85%!important; */
+    font-size: 1.5em;
+}
+
+table th {
+    margin: 10px 30px 10px 30px;
+}
+
+#btn_reg_mark {
+    /* margin-left:100px;
+    margin-top:20px;
+    
+    margin-right:100px; */
+    text-decoration: none;
+    background-color: #16161b;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+table img {
+    height: 30px;
+    width: 30px;
+    /* margin-left: 30px; */
+}
+
+.tab_crypto {
+    margin-left: 30px;
+}
+
+#div_pformb {
+    padding-bottom: 20px;
+}
+
+#div_pformb p {
+    margin-left: 100px;
+}
+
+h5 {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+#supportform {
+    margin-top: 50px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    max-width: auto;
+    min-height: 200px;
+    border: 2px solid white;
+}
+
+.modify {
+    margin: 30px;
+    border: 2px solid red;
+}
+
+.tableau {
+    margin: 10px;
+}
+
+.btncrypto {
+    width: 170px;
+    align-items: center;
+}
+
+.viewfigure {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: #ffffff;
+    text-shadow: 0 3px 0;
+    font-size: 1.5em;
+    background-color: black;
+}

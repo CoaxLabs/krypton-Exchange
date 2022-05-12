@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Soho Pro';
+    src: local('Soho Pro Condensed'), local('Soho-Pro-Condensed'),
+        url('SohoPro-Condensed.woff2') format('woff2'),
+        url('SohoPro-Condensed.woff') format('woff'),
+        url('SohoPro-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
